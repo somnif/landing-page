@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding:16px;
+}
+
+.header-task {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.header-logo{
+    font-size: 24px;
+
+}
+
+.header-main {
+    display: flex;
+    padding: 30px 0;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.header-main h1 {
+    font-size:48px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.header-main p {
+    font-size: 16px;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-image {
+    flex: 1;
+    background-color: grey;
+    height: 300px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information h3 {
+    text-align: center;
+    margin: 40px;
+    font-size:24px;
+    font-weight: bold;
+}
+
+.info-cards {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    gap: 8px;
+    margin-bottom: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.card div {
+    height: 150px;
+    width: 150px;
+    flex: 1 0 auto;
+    border: 5px #3882f6 solid;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 80px 0;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.quote-author {
+    width: 800px;
+    text-align: right;
+    font-size: 24px;
+    font-style: bold;
+    margin: 0 auto;
+}
+
+.action {
+    padding: 80px 0;
+}
+
+.action-contents {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 15px;
+    padding: 24px 110px;
+    color: white;
+}
+
+.action-contents h5 {
+    margin: 0;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.action-contents p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.action-contents button {
+    border: white 2px solid;
+    border-radius: 6px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
